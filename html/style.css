@@ -25,14 +25,16 @@ body {
 }
 
 .main-wrapper {
+    background: rgba(23, 23, 23, 90%);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     margin: auto;
     margin-top: 64.2%;
-    width: 44.5%;
-    height: 70vh;
+    width: 42.5%;
     position: relative;
     overflow: hidden;
     border-radius: 5%;
-    padding: 1.5rem;
+    padding: 0.5rem;
     display: none;
 }
 
@@ -41,11 +43,9 @@ body {
     justify-content: center;
     overflow: wrap;
     margin-bottom: 5px;
-    background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-radius: 5px;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 400;
     padding: 0.45rem;
 }
@@ -79,10 +79,10 @@ body {
 .form-control[type="password"] {
     border: none;
     font-size: 14px;
-    border-radius: 5px;
     margin: 5px 0px;
-    background: rgba(23, 23, 23, 90%);
-    height: 50px;
+    background: rgba(23, 23, 23, 1%);
+    border-radius: 10px;
+    height: 30px;
     text-align: center;
     width: 100%;
 }
@@ -96,12 +96,10 @@ body {
 }
 
 .form-input-group {
-    background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    background: rgba(23, 23, 23, 1%);
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 5px;
-    border-radius: 5px;
 }
 
 .input-group {
@@ -131,32 +129,26 @@ body {
 }
 
 .select-title {
-    background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    background: rgba(23, 23, 23, 1%);
     margin-top: 5px;
     padding: 5px;
-    border-radius: 5px;
-    text-align: center;
+    text-align: left;
 }
 
 .form-select {
     width: 100%;
-    background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
-    margin-top: 2.5px;
+    background: rgba(23, 23, 23, 1%);
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
     border: none;
-    height: 50px;
+    height: 30px;
 }
 
 .form-select:active,
 .form-select:focus {
     width: 100%;
     background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
-    margin-top: 5px;
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
@@ -164,7 +156,7 @@ body {
 }
 
 .form-select option:hover {
-    background: rgba(23, 23, 23, 90%);
+    background: rgba(23, 23, 23, 1%);
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     padding: 1rem 0;
     border-radius: 5px;
@@ -189,20 +181,19 @@ body {
 }
 
 .btn {
-    width: 100%;
-    height: 50px;
+    width: 75%;
+    height: 30px;
     font-size: 16px;
-    background: rgba(23, 23, 23, 90%);
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    background: rgba(23, 23, 23, 1%);
     border: none;
     font-weight: 500;
     border-radius: 5px;
     transition-property: color, background-color;
     transition-duration: 0.1s, 0.3s;
     transition-timing-function: linear, ease-in;
-    margin-top: 5px;
+    margin-left: 30px;
 }
 
 .btn:hover {
-    background-color: #228a3a;
+    background-color: #dc143c;
 }
